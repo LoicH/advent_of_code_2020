@@ -15,21 +15,17 @@ def part_one(numbers, total=SUM):
                 return n*m
     return None
 
-assert (part_one(example_nb) == 514579), "Wrong result for part one"
-
-
 def part_two(numbers, total=SUM):
     for i, n in enumerate(numbers):
         res = part_one(numbers[i+1:], total=SUM-n)
         if res:
             return n*res
 
+if __name__ == "__main__":
+    with open("input_day_1.txt") as f:
+        input_nb = f.read()
+    numbers = [int(n) for n in input_nb.split("\n")]
 
-assert (part_two(example_nb) == 241861950), "Wrong result for part two"
+    print("Part one:", part_one(numbers))
+    print("Part two:", part_two(numbers))
 
-with open("input_day_1.txt") as f:
-    input_nb = f.read()
-numbers = [int(n) for n in input_nb.split("\n")]
-
-print("Part one:", part_one(numbers))
-print("Part two:", part_two(numbers))

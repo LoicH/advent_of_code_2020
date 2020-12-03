@@ -22,14 +22,9 @@ def count_valid_lines(txt, function, verbose=False):
 part_one = lambda txt, verbose: count_valid_lines(txt, valid_one, verbose)
 part_two = lambda txt, verbose: count_valid_lines(txt, valid_two, verbose)
 
-# checking the input example
-with open("input_example_day_2.txt") as f:
-    example = f.read()
-assert (part_one(example, verbose=False) == 2), "Wrong result for part one"
-assert (part_two(example, verbose=True) == 1), "Wrong result for part two"
-
-# computing the input
-with open("input_day_2.txt") as f:
-    input_day_2 = f.read()
-print("Part one:", part_one(input_day_2, False))
-print("Part two:", part_two(input_day_2, False))
+if __name__ == "__main__":
+    # computing the input
+    with open("input_day_2.txt") as f:
+        input_day_2 = f.read()
+    print("Part one:", part_one(input_day_2, False))
+    print("Part two:", part_two(input_day_2, False))
