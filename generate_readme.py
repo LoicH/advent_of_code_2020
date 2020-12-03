@@ -12,7 +12,7 @@ for f in os.listdir():
     m = re.match(pattern_file_solution, f)
     if m:
         print(m.groups())
-        s = """## Day #{}
+        s = """## Day {}
 ### Exercise
 {}
 ### Solution
