@@ -57,7 +57,6 @@ def is_valid_passport_part_two(passport, verbose=False):
         if verbose:
             print("All good!")
         return True
-        
 
 def check_valid_passports(txt, is_valid_func, verbose=False):
     passports_txt = txt.split("\n\n")
@@ -73,8 +72,8 @@ def check_valid_passports(txt, is_valid_func, verbose=False):
         else:
             if verbose:
                 print("Invalid passport")
-                
-    return valid_passports 
+
+    return valid_passports
 
 part_one = lambda txt, verbose: check_valid_passports(txt, is_valid_passport_part_one, verbose=verbose)
 part_two = lambda txt, verbose: check_valid_passports(txt, is_valid_passport_part_two, verbose=verbose)
