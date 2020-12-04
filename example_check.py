@@ -3,6 +3,7 @@ import unittest
 import day_1
 import day_2
 import day_3
+import day_4
 
 class TestDay1(unittest.TestCase):
     input_example = """1721
@@ -38,6 +39,16 @@ class TestDay3(unittest.TestCase):
         
     def test_part_two(self):
         self.assertEqual(day_3.part_two(TestDay3.example, verbose=False), 336)
+
+class TestDay4(unittest.TestCase):
+    with open("input_example_day_4.txt") as f:
+        example = f.read()
+
+    def test_part_one(self):
+        self.assertEqual(day_4.part_one(TestDay4.example, verbose=False), 2)
+        
+    def test_part_two(self):
+        self.assertEqual(day_4.part_two(TestDay4.example, verbose=False), 2)
 
 
 unittest.main()

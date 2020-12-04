@@ -13,3 +13,8 @@ https://github.com/LoicH/advent_of_code_2020/blob/master/day_2.py
 https://adventofcode.com/2020/day/3
 ### Solution
 https://github.com/LoicH/advent_of_code_2020/blob/master/day_3.py
+## Day 4
+### Exercise
+https://adventofcode.com/2020/day/4
+### Solution
+https://github.com/LoicH/advent_of_code_2020/blob/master/day_4.py
