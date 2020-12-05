@@ -8,7 +8,7 @@ pattern_file_solution = r"day_(\d+).py"
 if os.path.exists("README.md"):
     os.remove("README.md")
 
-for f in os.listdir():
+for f in sorted(os.listdir()):
     m = re.match(pattern_file_solution, f)
     if m:
         s = """## Day {}
