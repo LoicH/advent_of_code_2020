@@ -11,11 +11,6 @@ if os.path.exists("README.md"):
 for f in sorted(os.listdir()):
     m = re.match(pattern_file_solution, f)
     if m:
-        s = """## Day {}
-### Exercise
-{}
-### Solution
-{}
-""".format(m.group(1), pattern_url_exercise, pattern_url_solution)
+        s = "- Day {}: [Exercise]({}) | [Solution]({})\n".format(m.group(1), pattern_url_exercise, pattern_url_solution)
         with open("README.md", 'a') as f_out:
             f_out.write(s.format(m.group(1), m.group(0)))
