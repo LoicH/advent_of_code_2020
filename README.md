@@ -5,3 +5,4 @@
 - Day 5: [Exercise](https://adventofcode.com/2020/day/5) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/day_5.py)
 - Day 6: [Exercise](https://adventofcode.com/2020/day/6) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/day_6.py)
 - Day 7: [Exercise](https://adventofcode.com/2020/day/7) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/day_7.py)
+- Day 8: [Exercise](https://adventofcode.com/2020/day/8) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/day_8.py)
