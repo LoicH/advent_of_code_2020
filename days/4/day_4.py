@@ -79,8 +79,14 @@ part_one = lambda txt, verbose: check_valid_passports(txt, is_valid_passport_par
 part_two = lambda txt, verbose: check_valid_passports(txt, is_valid_passport_part_two, verbose=verbose)
 
 if __name__ == "__main__":
+    with open("input_example_day_4.txt") as f:
+        example = f.read()
+
+    assert(part_one(example, verbose=False) == 2)
+    assert(part_two(example, verbose=False) == 2)
+
     # computing the input example
     with open("input_day_4.txt") as f:
         input_day = f.read()
     print("Part one:", part_one(input_day, verbose=False))
-    print("Part two:", part_two(input_day, verbose=True))
+    print("Part two:", part_two(input_day, verbose=False))

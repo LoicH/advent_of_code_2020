@@ -23,6 +23,13 @@ part_one = lambda txt, verbose: count_valid_lines(txt, valid_one, verbose)
 part_two = lambda txt, verbose: count_valid_lines(txt, valid_two, verbose)
 
 if __name__ == "__main__":
+
+    with open("input_example_day_2.txt") as f:
+        example = f.read()
+
+    assert(part_one(example, verbose=False) == 2)
+    assert(part_two(example, verbose=False) == 1)
+
     # computing the input
     with open("input_day_2.txt") as f:
         input_day_2 = f.read()

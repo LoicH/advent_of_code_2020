@@ -21,6 +21,12 @@ def part_two(txt, slopes=[(1,1), (3,1), (5,1), (7,1), (1,2)], verbose=False):
     return product
 
 if __name__ == "__main__":
+    with open("input_example_day_3.txt") as f:
+        example = f.read()
+
+    assert(part_one(example, verbose=False) == 7)
+    assert(part_two(example, verbose=False) == 336)
+    
     # computing the input example
     with open("input_day_3.txt") as f:
         input_day = f.read()
