@@ -8,9 +8,9 @@ pattern_file_solution = r"day_(\d+).py"
 if os.path.exists("README.md"):
     os.remove("README.md")
 
-for f in sorted(os.listdir("days")):
-    if not os.path.isdir(os.path.join("days", f)):
-        continue
+paths = [f for f in os.listdir("days") if os.path.isdir(os.path.join("days", f))]
+paths = sorted(int(f) for f in paths)
+for f in paths:
     n = f
     s = "- Day {}: [Exercise]({}) | [Solution]({})\n".format(n, pattern_url_exercise, pattern_url_solution)
     with open("README.md", 'a') as f_out:
