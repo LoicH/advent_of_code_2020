@@ -6,6 +6,6 @@
 - Day 6: [Exercise](https://adventofcode.com/2020/day/6) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/6/day_6.py)
 - Day 7: [Exercise](https://adventofcode.com/2020/day/7) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/7/day_7.py)
 - Day 8: [Exercise](https://adventofcode.com/2020/day/8) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/8/day_8.py)
-- Day 9: [Exercise](https://adventofcode.com/2020/day/9) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/9/day_9.py)
 - Day 10: [Exercise](https://adventofcode.com/2020/day/10) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/10/day_10.py)
 - Day 11: [Exercise](https://adventofcode.com/2020/day/11) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/11/day_11.py)
+- Day 12: [Exercise](https://adventofcode.com/2020/day/12) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/12/day_12.py)
