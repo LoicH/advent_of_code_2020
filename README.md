@@ -10,4 +10,5 @@
 - Day 10: [Exercise](https://adventofcode.com/2020/day/10) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/10/day_10.py)
 - Day 11: [Exercise](https://adventofcode.com/2020/day/11) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/11/day_11.py)
 - Day 12: [Exercise](https://adventofcode.com/2020/day/12) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/12/day_12.py)
+- Day 13: [Exercise](https://adventofcode.com/2020/day/13) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/13/day_13.py)
 - Day 14: [Exercise](https://adventofcode.com/2020/day/14) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/14/day_14.py)
