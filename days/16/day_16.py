@@ -65,7 +65,7 @@ def part_two(rules, my_ticket, nearby_tickets, verbose=False):
                 print("Weird, field {} was already in definitive_positions (value {})".format(field, definitive_positions[field]))
             definitive_positions[field] = def_pos
             possibilities.pop(field)
-            for f, positions in possibilities.items():
+            for positions in possibilities.values():
                 positions.remove(def_pos)
 
     
