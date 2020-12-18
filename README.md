@@ -15,3 +15,4 @@
 - Day 15: [Exercise](https://adventofcode.com/2020/day/15) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/15/day_15.py)
 - Day 16: [Exercise](https://adventofcode.com/2020/day/16) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/16/day_16.py)
 - Day 17: [Exercise](https://adventofcode.com/2020/day/17) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/17/day_17.py)
+- Day 18: [Exercise](https://adventofcode.com/2020/day/18) | [Solution](https://github.com/LoicH/advent_of_code_2020/blob/master/days/18/day_18.py)
